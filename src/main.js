@@ -8,7 +8,7 @@ import VueAnalytics from "vue-analytics";
 Vue.config.productionTip = false;
 
 Vue.use(VueAnalytics, {
-  id: "UA-117140802-2",
+  id: "UA-135274739-1",
   router,
   // checkDuplicatedScript: true,
   autoTracking: {
@@ -16,12 +16,7 @@ Vue.use(VueAnalytics, {
     //screenview: true
   },
   set: [
-    { field: "dimension1", value: "2" },
-    { field: "dimension2", value: "5" },
-    { field: "dimension3", value: "x1" },
-    { field: "userId", value: "3" }
-    // { field: "productId", value: "1" },
-    // { field: "role", value: "2" } // admin, manager, employee
+    { field: "dimension1", value: "1" }
   ],
   debug: {
     enabled: true,
